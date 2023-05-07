@@ -1,5 +1,5 @@
 # zsh-starship
-A zsh plugin to use the Starship prompt, along with a powerline theme.
+A zsh plugin to manage the Starship prompt
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
@@ -17,3 +17,9 @@ A check will be performed to verify that `starship` has been installed:
 
 ## License
 The **zsh-starship** plugin is released under the [Apache License 2.0](https://github.com/wintermi/zsh-starship/blob/main/LICENSE) unless explicitly mentioned in the file header.
+
+## Kudos
+This is a fork of winterml's zsh-starship plugin.
+
+Primarily i have forked in order to maintain my own starship configuration,  plus I wanted to manager the powerline theme directly using https://github.com/romkatv/powerlevel10k
+
