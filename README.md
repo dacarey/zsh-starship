@@ -21,5 +21,5 @@ The **zsh-starship** plugin is released under the [Apache License 2.0](https://g
 ## Kudos
 This is a fork of winterml's zsh-starship plugin.
 
-Primarily i have forked in order to maintain my own starship configuration,  plus I wanted to manager the powerline theme directly using https://github.com/romkatv/powerlevel10k
+Primarily i have forked in order to maintain my own starship configuration within the plugin
 
