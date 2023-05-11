@@ -19,7 +19,7 @@ A check will be performed to verify that `starship` has been installed:
 The **zsh-starship** plugin is released under the [Apache License 2.0](https://github.com/wintermi/zsh-starship/blob/main/LICENSE) unless explicitly mentioned in the file header.
 
 ## Kudos
-This is a fork of winterml's zsh-starship plugin.
+This is a fork of [winterml's zsh-starship](https://github.com/wintermi/zsh-starship) plugin.
 
-Primarily i have forked in order to maintain my own starship configuration within the plugin
+Primarily I forked so that I can maintain my own starship configuration within the plugin
 
