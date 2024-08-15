@@ -15,7 +15,7 @@ if [[ -z "$STARSHIP_CONFIG" ]]; then
     export STARSHIP_CONFIG="${0:A:h}/theme/starship.toml"
 fi
 
-  echo "    -- STARSHIP is configured to use '$STARSHIP_CONFIG'.  If empty, the default theme will be used."
+  echo "    -- STARSHIP is configured to use '$STARSHIP_CONFIG'."
 
 # Init cache directory for `starship` command
 local INIT_CACHE_DIR="${0:A:h}/init"
