@@ -1,5 +1,7 @@
 #!/usr/bin/env zsh
 
+typeset -f log_message
+
 # Default logging mechanism (fallback to echo)
 log_message=${log_message:-echo}
 
