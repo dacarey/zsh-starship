@@ -7,7 +7,7 @@ if ! typeset -f log_message >/dev/null 2>&1; then
     }
 fi
 
-$log_message "==> ZAP PLUGIN loading - zsh-starship"
+log_message "==> ZAP PLUGIN loading - zsh-starship"
 
 # Exit if the 'starship' command can not be found
 if ! (( $+commands[starship] )); then
@@ -21,7 +21,7 @@ if [[ -z "$STARSHIP_CONFIG" ]]; then
     export STARSHIP_CONFIG="${0:A:h}/theme/starship.toml"
 fi
 
-$log_message "    -- STARSHIP is configured to use '$STARSHIP_CONFIG'."
+log_message "    -- STARSHIP is configured to use '$STARSHIP_CONFIG'."
 
 # Init cache directory for `starship` command
 local INIT_CACHE_DIR="${0:A:h}/init"
