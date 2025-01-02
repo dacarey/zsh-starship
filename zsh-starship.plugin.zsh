@@ -1,9 +1,11 @@
 #!/usr/bin/env zsh
 
-typeset -f log_message
-
 # Default logging mechanism (fallback to echo)
-log_message=${log_message:-echo}
+if ! typeset -f log_message >/dev/null 2>&1; then
+    log_message() {
+        echo "$1"
+    }
+fi
 
 $log_message "==> ZAP PLUGIN loading - zsh-starship"
 
